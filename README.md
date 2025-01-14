@@ -1,4 +1,4 @@
-# Financial Market Prediction Using Hybrid Transformer-LSTM Model
+# Time-Series Forecasting Using a Hybrid Transformer-LSTM Model
 
 ## Overview
 A deep learning model combining Transformer and LSTM architectures to predict S&P 500 price movements using multiple economic indicators. The model leverages both global context understanding and sequential pattern recognition for predictions. Moveover, gradient is used to analysis the influence of different indicator. (For demonstration purposes, this framework is designed with a simplified example using monthly aggregated data)
