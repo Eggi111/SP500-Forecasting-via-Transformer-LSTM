@@ -1,10 +1,10 @@
 # Financial Market Prediction Using Hybrid Transformer-LSTM Model
 
 ## Overview
-A deep learning model combining Transformer and LSTM architectures to predict S&P 500 price movements using multiple economic indicators. The model leverages both global context understanding and sequential pattern recognition for accurate market predictions.
+A deep learning model combining Transformer and LSTM architectures to predict S&P 500 price movements using multiple economic indicators. The model leverages both global context understanding and sequential pattern recognition for predictions. Moveover, gradient is used to analysis the influence of different indicator
 
 ## Model Architecture
-![Model Architecture](img/workflow.png)
+![Model Architecture](https://github.com/Eggi111/SP500-Forecasting-via-Transformer-LSTM/blob/2909bdddb5837fbbcc6d99de095638d7ed4d1d0d/S%26P%20500%20Forecasting%20via%20Transformer-LSTM%20with%20Macroeconomic%20Data/img/workflow.png)
 
 The hybrid architecture consists of:
 - **Input Processing**: Handles multi-feature time series data with sliding windows
@@ -13,7 +13,7 @@ The hybrid architecture consists of:
 - **Output Layer**: Generates predictions for specified time horizons
 
 ## Data Features
-![Sample Data](path/to/table_image.png)
+![Sample Data](https://github.com/Eggi111/SP500-Forecasting-via-Transformer-LSTM/blob/2909bdddb5837fbbcc6d99de095638d7ed4d1d0d/S%26P%20500%20Forecasting%20via%20Transformer-LSTM%20with%20Macroeconomic%20Data/img/table%20(raw%20data).png)
 
 Key indicators include:
 - **Market Indicators**: S&P 500 Price, Volume, BTC, Gold, Crude Oil
@@ -34,20 +34,11 @@ Key indicators include:
 - Reasonable prediction accuracy in various market conditions
 
 ## Feature Importance Analysis
-![Feature Importance](path/to/heatmap_image.png)
+![Feature Importance](https://github.com/Eggi111/SP500-Forecasting-via-Transformer-LSTM/blob/2909bdddb5837fbbcc6d99de095638d7ed4d1d0d/S%26P%20500%20Forecasting%20via%20Transformer-LSTM%20with%20Macroeconomic%20Data/img/explanation.png)
 
 ### Key Insights
 - Temporal importance varies across different features
 - Some features show stronger predictive power at specific time steps
 - Complex interactions between economic indicators revealed
 
-## Technical Details
 
-### Model Parameters
-- Window Size: 8 time steps
-- Feature Dimension: 18
-- Transformer Dimension: 32
-- LSTM Hidden Dimension: 512
-- Number of LSTM Layers: 2
-
-### Implementation
