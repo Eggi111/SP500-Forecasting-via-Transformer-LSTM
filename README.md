@@ -56,7 +56,7 @@ Key indicators include:
 
 ### Key Insights
 - Temporal importance varies across different features
-- Some features show stronger predictive power at specific time steps
+- Some features show stronger predictive power at specific time steps (HY, PPI, UR, BTC, year_offset)
 - Complex interactions between economic indicators revealed
 
 ### Requirement
