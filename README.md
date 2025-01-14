@@ -3,6 +3,19 @@
 ## Overview
 A deep learning model combining Transformer and LSTM architectures to predict S&P 500 price movements using multiple economic indicators. The model leverages both global context understanding and sequential pattern recognition for predictions. Moveover, gradient is used to analysis the influence of different indicator. (For demonstration purposes, this framework is designed with a simplified example using monthly aggregated data)
 
+## File Descriptions
+
+### Core Files
+- `main.py`: Main script for training and evaluating the model
+- `model.py`: Contains the TimeTransformerLSTM model implementation
+- `explanation.py`: Functions for model interpretability and feature importance analysis
+- `utilities.py`: Helper functions for data processing and visualization
+
+### Directories
+- `data/`: Contains the raw data and enhanced raw data (including time features and lag features)
+- `img/`: Stores visualization outputs and model architecture diagrams
+- `saved_models/`: Directory for storing trained model checkpoints
+
 ## Model Architecture
 ![Model Architecture](https://github.com/Eggi111/SP500-Forecasting-via-Transformer-LSTM/blob/2909bdddb5837fbbcc6d99de095638d7ed4d1d0d/S%26P%20500%20Forecasting%20via%20Transformer-LSTM%20with%20Macroeconomic%20Data/img/workflow.png)
 
