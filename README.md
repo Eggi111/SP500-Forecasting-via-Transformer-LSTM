@@ -1,7 +1,7 @@
 # Financial Market Prediction Using Hybrid Transformer-LSTM Model
 
 ## Overview
-A deep learning model combining Transformer and LSTM architectures to predict S&P 500 price movements using multiple economic indicators. The model leverages both global context understanding and sequential pattern recognition for predictions. Moveover, gradient is used to analysis the influence of different indicator
+A deep learning model combining Transformer and LSTM architectures to predict S&P 500 price movements using multiple economic indicators. The model leverages both global context understanding and sequential pattern recognition for predictions. Moveover, gradient is used to analysis the influence of different indicator. (For demonstration purposes, this framework is designed with a simplified example using monthly aggregated data)
 
 ## Model Architecture
 ![Model Architecture](https://github.com/Eggi111/SP500-Forecasting-via-Transformer-LSTM/blob/2909bdddb5837fbbcc6d99de095638d7ed4d1d0d/S%26P%20500%20Forecasting%20via%20Transformer-LSTM%20with%20Macroeconomic%20Data/img/workflow.png)
@@ -20,10 +20,15 @@ Key indicators include:
 - **Economic Indicators**: 
   - EFFR (Effective Federal Funds Rate)
   - CPI (Consumer Price Index)
-  - GEU (Global Economic Uncertainty)
   - Treasury Yields (3m, 10y)
   - GDP, Imports/Exports
-- **Other Metrics**: HY Index, HPI, PPI, DTI, Party
+- **Risk Indicators**: 
+  - HY Index (U.S. High Yield Index) (market speculation)
+  - HPI (Home Price Index)
+  - DTI (Debt-to-Income Ratio)
+- **Contextual and Political Indicators:**:
+  - GEU (Global Economic Uncertainty Index) 
+  - Party (Ruling political party in the United States)
 
 ## Model Performance
 ![Prediction Results](https://github.com/Eggi111/SP500-Forecasting-via-Transformer-LSTM/blob/65cc0177b251b75c251dc380f05e6af5be9d258c/S%26P%20500%20Forecasting%20via%20Transformer-LSTM%20with%20Macroeconomic%20Data/img/Prediction.png)
