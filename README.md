@@ -59,4 +59,12 @@ Key indicators include:
 - Some features show stronger predictive power at specific time steps
 - Complex interactions between economic indicators revealed
 
+### Requirement
+- matplotlib==3.9.2
+- numpy==2.0.2
+- pandas==2.2.3
+- scikit-learn==1.5.2
+- torch==2.5.1+cu118
+
+
 
